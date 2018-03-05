@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HelloAndroid2</string>
+    <string name="first_line">"Udacity"</string>
+    <string name="second_line">"650-555-555"</string>
+    <string name="third_line">"www.udacity.com"</string>
+    <string name="fourth_line">"2465 Latham St, Mountain View, CA 94043"</string>
+</resources>

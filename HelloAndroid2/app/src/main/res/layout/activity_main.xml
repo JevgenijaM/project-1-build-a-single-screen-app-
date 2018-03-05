@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2EBF2"
+    tools:context=".MainActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image_pr1"
+            style="@style/image_one"
+            android:src="@drawable/pr1" />
+
+        <TextView
+            android:id="@+id/udacity_textView1"
+            style="@style/info_text_style"
+            android:layout_below="@id/image_pr1"
+            android:fontFamily="cursive"
+            android:text="@string/first_line" />
+
+        <TextView
+            android:id="@+id/udacity_textView2"
+            style="@style/info_text_style"
+            android:layout_below="@id/udacity_textView1"
+            android:fontFamily="cursive"
+            android:text="@string/second_line" />
+
+        <TextView
+            android:id="@+id/udacity_textView3"
+            style="@style/info_text_style"
+            android:layout_below="@id/udacity_textView2"
+            android:fontFamily="cursive"
+            android:text="@string/third_line" />
+
+        <TextView
+            android:id="@+id/udacity_textView4"
+            style="@style/info_text_style"
+            android:layout_below="@id/udacity_textView3"
+            android:fontFamily="cursive"
+            android:text="@string/fourth_line" />
+
+        <ImageView
+            android:id="@+id/image_pr3"
+            style="@style/image_two"
+            android:layout_below="@id/udacity_textView4"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/pr3" />
+    </RelativeLayout>
+</ScrollView>
